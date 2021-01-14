@@ -1,0 +1,206 @@
+#myFooter {
+  background-color: #3c3d41;
+  color: white;
+  padding-top: 30px;
+  margin-top: 50px;
+}
+
+#myFooter .footer-copyright {
+  background-color: #333333;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+}
+
+#myFooter .row {
+  margin-bottom: 0px;
+}
+
+#myFooter .footer-copyright p {
+  margin: 10px;
+  color: #ccc;
+}
+
+#myFooter ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.7;
+}
+
+#myFooter h5 {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+#myFooter a {
+  color: #d2d1d1;
+  text-decoration: none;
+}
+
+#myFooter a:hover, #myFooter a:focus {
+  text-decoration: none;
+  color: white;
+}
+
+#myFooter .social-networks {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 16px;
+}
+
+#myFooter .social-networks a {
+  font-size: 32px;
+  color: #f9f9f9;
+  padding: 10px;
+  transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+  text-decoration: none;
+}
+
+#myFooter .facebook:hover {
+  color: #0077e2;
+}
+
+#myFooter .google:hover {
+  color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+  color: #00aced;
+}
+
+#myFooter .linkedin:hover {
+  color: #007BB6;
+}
+
+#myFooter .btn {
+  color: white;
+  background-color: #388BF5;
+  border-radius: 20px;
+  border: none;
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+@media screen and (max-width: 767px) {
+  #myFooter {
+    text-align: center;
+  }
+}
+
+#myFooter {
+  bottom: 0px;
+  margin: 0px;
+  margin-top: 80px;
+}
+
+#logoBlock {
+  width: 1920px;
+  min-width: 20%;
+  max-width: 100%;
+  background-color: #ffffff;
+  padding-right: 10%;
+  padding-left: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#logoContainer {
+  width: 1920px;
+  min-width: 20%;
+  max-width: 100%;
+  margin-top: 0;
+}
+
+#logoColumn {
+}
+
+#logoPhone {
+  padding: 0;
+}
+
+#logoPhonePara {
+  margin-bottom: 0;
+  color: #434343;
+  font-size: 20px;
+  font-family: Acme, sans-serif;
+}
+
+#contactusButton {
+  margin-top: 20px;
+  background-color: #388bf5;
+}
+
+#footerRow {
+}
+
+#contactFormBlock {
+  margin-top: 50px;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.contactHR {
+  background-color: #fc2020;
+  height: 1px;
+}
+
+#wallpaper {
+  max-width: 1920px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.hoverDetailDiv {
+  max-width: 400px;
+  margin: 40px;
+  min-width: 200px;
+}
+
+.hoverDetailTopic: hover {
+  font-size: 24px;
+  font-family: Lato, sans-serif;
+  margin-bottom: 0;
+  font-weight: 700;
+  color: rgb(200,23,23);
+}
+
+.hoverDetailTopic : hover {
+  font-size: 24px;
+  font-family: Lato, sans-serif;
+  margin-bottom: 0;
+  font-weight: 700;
+  color: rgb(67,67,67);
+}
+
+.hoverDetailTopic : hover {
+  font-size: 24px;
+  font-family: Lato, sans-serif;
+  margin-bottom: 0;
+  font-weight: 700;
+  color: rgb(214,34,34);
+}
+
+.hoverDetailTopic {
+  font-size: 24px;
+  font-family: Lato, sans-serif;
+  margin-bottom: 0;
+  font-weight: 700;
+  color: rgb(217,45,45);
+}
+
+.hoverDetailPara {
+  color: rgb(136,136,136);
+}
+
+#right {
+  text-align: left;
+}
+

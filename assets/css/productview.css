@@ -1,0 +1,122 @@
+.container {
+  margin-top: 50px;
+}
+
+h3.h3 {
+  text-align: center;
+  margin: 1em;
+  text-transform: capitalize;
+  font-size: 1.7em;
+  color: #ff2f2f;
+  font-weight: 700;
+}
+
+.demo {
+  padding: 45px 0;
+}
+
+.product-grid2 {
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  box-shadow: 0px 4px 14px #00000029;
+}
+
+.product-grid2 .product-image2 {
+  overflow: hidden;
+  position: relative;
+}
+
+.product-grid2 .product-image2 a {
+  display: block;
+}
+
+.product-grid2 .product-image2 img {
+  width: 100%;
+  height: auto;
+}
+
+.product-image2 .pic-1 {
+  opacity: 1;
+  transition: all .5s;
+  width: 100%;
+}
+
+.product-grid2 .social li a:after, .product-grid2 .social li a:before {
+  content: attr(data-tip);
+  color: #fff;
+  background-color: #000;
+  font-size: 12px;
+  line-height: 22px;
+  border-radius: 3px;
+  padding: 0 5px;
+  white-space: nowrap;
+  opacity: 0;
+  transform: translateX(-50%);
+  position: absolute;
+  left: 50%;
+  top: -30px;
+}
+
+.product-grid2 .social li a:after {
+  content: '';
+  height: 15px;
+  width: 15px;
+  border-radius: 0;
+  transform: translateX(-50%) rotate(45deg);
+  top: -22px;
+  z-index: -1;
+}
+
+.product-grid2 .social li a:hover:after, .product-grid2 .social li a:hover:before {
+  opacity: 1;
+}
+
+.product-grid2:hover .add-to-cart {
+  bottom: 0;
+}
+
+.product-grid2 .product-new-label {
+  background-color: #3498db;
+  color: #fff;
+  font-size: 17px;
+  padding: 5px 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: all .3s;
+}
+
+.product-grid2:hover .product-new-label {
+  opacity: 0;
+}
+
+.product-grid2 .product-content {
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.product-grid2 .title {
+  font-size: 17px;
+  margin: 0 0 7px;
+}
+
+.product-grid2 .title a {
+  color: #303030;
+  text-decoration: none;
+}
+
+.product-grid2 .price {
+  color: #ff2f2f;
+  font-size: 15px;
+}
+
+@media screen and (max-width:990px) {
+  .product-grid2 {
+    margin-bottom: 30px;
+  }
+}
+
+h3 {
+  font-weight: 700;
+}
+

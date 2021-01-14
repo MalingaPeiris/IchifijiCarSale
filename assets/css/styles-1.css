@@ -1,0 +1,203 @@
+@media (max-width: 375px) {
+  #vehicalDetails {
+    width: 100px;
+    font-size: 10px;
+    padding-left: 2px;
+  }
+}
+
+#vehicalDetails {
+  width: 300px;
+  font-size: 30px;
+  padding-left: 30px;
+  font-weight: 700;
+}
+
+.table td, .table th {
+}
+
+.table td, .table th {
+}
+
+#ModelPara {
+  font-weight: 600;
+  filter: contrast(127%) hue-rotate(0deg) saturate(68%);
+  font-size: 20px;
+}
+
+#ChassisPara {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#EnginePara {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#FuelPara {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#ModelNoPara {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#SeatsPara {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#ColorPara {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#RegPara {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#Milleage {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#TransmissionPara {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#Streering {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#DrivePara {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#Doors {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#Location {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#mainProductHr {
+  background-color: #ff0505;
+  height: 2%;
+}
+
+#stockNoPara {
+  font-size: 20px;
+}
+
+#stockNoParaAnswer {
+  font-size: 20px;
+}
+
+#ModelParaAnswer {
+  font-size: 20px;
+}
+
+#ChassisParaAnswer {
+  font-size: 20px;
+}
+
+#EngineParaAnswer {
+  font-size: 20px;
+}
+
+#FuelParaAnswer {
+  font-size: 20px;
+}
+
+#ModelNoParaAnswer {
+  font-size: 20px;
+}
+
+#SeatsParaAnswer {
+  font-size: 20px;
+}
+
+#ColorParaAnswer {
+  font-size: 20px;
+}
+
+#RegParaAnswer {
+  font-size: 20px;
+}
+
+#MilleageAnswer {
+  font-size: 20px;
+}
+
+#TransmissionParaAnswer {
+  font-size: 20px;
+}
+
+#StreeringAnswer {
+  font-size: 20px;
+}
+
+#DriveParaAnswer {
+  font-size: 20px;
+}
+
+#DoorsAnswer {
+  font-size: 20px;
+}
+
+#LocationAnswer {
+  font-size: 20px;
+}
+
+#hr2Design {
+  background-color: #ff0505;
+  height: 2px;
+}
+
+#OptionPara {
+  width: 100px;
+  max-width: 100%;
+  min-width: 20%;
+  font-size: 25px;
+}
+
+#carHover {
+  height: 100%;
+  width: 100%;
+  max-width: 1920px;
+  margin-bottom: 100px;
+  min-width: 20%;
+  margin-top: 50px;
+}
+
+@media (max-width: 800px) {
+  #carHover {
+    height: 100%;
+    width: 100%;
+    max-width: 1920px;
+    display: none;
+  }
+}
+
+#hoverCarImage {
+  width: 100%;
+  max-width: 600px;
+  min-width: 200px;
+  object-fit: contain;
+}
+
+@keyframes run {
+  0%{  transform: translate(100px,-100px);
+  } 100%{  transform: translate(0px,0px);
+}
+
